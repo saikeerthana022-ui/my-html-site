@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Propose Day</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            background: white;
+            width: 320px;
+            margin: 100px auto;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #ff3366;
+            font-size: 26px;
+        }
+
+        .ring {
+            font-size: 60px;
+            animation: pop 1.2s infinite;
+        }
+
+        @keyframes pop {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+            100% { transform: scale(1); }
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        button {
+            background: #ff3366;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #e6004c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="ring">💍</div>
+        <h1>Happy Propose Day Bava</h1>
+        <p id="msg">Will you be mine forever? 💖</p>
+        <button onclick="sayYes()">Yes 💕</button>
+    </div>
+
+    <script>
+        function sayYes() {
+            document.getElementById("msg").innerHTML =
+            "He said YES 😍💍 I love you forever ❤️";
+            alert("I Love You ❤️🥰");
+        }
+    </script>
+
+</body>
+</html>
+</body>
+</html>
